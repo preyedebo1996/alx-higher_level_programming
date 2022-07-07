@@ -4,6 +4,7 @@ if __name__ == "__main__":
     argv = int(sys.argv[1:])
     index = 0
     arg_len = len(argv)
+    total_sum = 0
     if len(argv) is 0:
         print("0")
     while index <= arg_len:
