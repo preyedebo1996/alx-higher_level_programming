@@ -10,7 +10,7 @@ if __name__ == '__main__':
         print("{:d} argument:".format(len_arg))
         print("{:d}: {:s}".format(len_arg, sys.argv[1])
     else:
-        print("{} arguments:".format(len_arg))
+    print("{:d} arguments:".format(len_arg))
         while count <= len_arg:
-            print("{}: {:s}".format(count, argv[count]))
-            count++
+        print("{:d}: {:s}".format(count, sys.argv[count]))
+            count += 1
